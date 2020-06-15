@@ -15,7 +15,7 @@ const MediaCard = function({ title, body, imageUrl }) {
   </div>
 }
 
-ReactDOM.render(<MediaCard title= "Cat" body={<strong>Cats are awesome!</strong>}  imageUrl="https://cdn.mos.cms.futurecdn.net/VSy6kJDNq2pSXsCzb6cvYF.jpg" />, document.querySelector('#root'));
+ReactDOM.render(<MediaCard title= "Cat" body={<strong>Catss are awesome!</strong>}  imageUrl="https://cdn.mos.cms.futurecdn.net/VSy6kJDNq2pSXsCzb6cvYF.jpg" />, document.querySelector('#root'));
 
 const Gate = function({ isOpen }) {
   return <div>
@@ -23,3 +23,4 @@ const Gate = function({ isOpen }) {
   </div>
 }
 
+ReactDOM.render(<Gate isOpen= {true} />, document.querySelector('#root'));

@@ -17,7 +17,7 @@ function Room() {
       + temp
     </button>
     <button onClick={() => setTemp(isTemp - 1)}>
-      + temp
+      - temp
     </button>
     <br />
     <button onClick={() => setLit(!isLit)}>

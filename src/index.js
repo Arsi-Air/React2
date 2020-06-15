@@ -7,4 +7,4 @@ function Room() {
   );
 }
 
-ReactDOM.render(<Room />)
+ReactDOM.render(<Room />, document.getElementById('root'));
